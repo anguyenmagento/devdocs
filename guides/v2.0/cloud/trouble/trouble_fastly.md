@@ -151,7 +151,7 @@ If `X-Cache` is either `HIT, MISS` or `MISS, MISS`, enter the same `curl` comman
 
 If you get the same result, use the [first `curl` command](#cloud-test-stage) discussed in this topic to verify that:
 
-*	`Pragma` is `cache`
+*	`Pragma` is `cache`may refer to broswer cache, this may not indicate a problem.
 *	`X-Magento-Tags` exists
 *	`Cache-Control: max-age` is greater than 0
 
