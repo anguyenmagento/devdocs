@@ -71,7 +71,7 @@ We automatically back up your production system every six hours. Each production
 The coordinating agent that monitors your production system:
 
 * Detects failures at the service level (for example, MySQL)
-* Fully automaties and coordinates recovery where an automated recovery is possible
+* Fully automatic and coordinates recovery where an automated recovery is possible
 
 ### Production technology stack
 The Production environment has three VMs behind an Elastic Load Balancer managed by an HAProxy per VM. Each VM includes the following technologies:
