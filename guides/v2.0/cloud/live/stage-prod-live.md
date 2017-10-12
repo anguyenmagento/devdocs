@@ -50,6 +50,8 @@ For detailed information of the process, see [Pro Develop and Deploy Workflow]({
 ### Assisted deployment
 For Pro, the Staging and Production environments require *assisted deployment*. These environments are not accessible through the Enterprise Cloud Edition Web Interface to add SSH keys or to modify environment variables, routes, or settings. You must enter a [support ticket]({{ page.baseurl }}cloud/bk-cloud.html#gethelp) to deploy code, add SSH keys, and go live.
 
+(Is this true ^^^ that they have to open a ticket to deploy code? This is not the case currently, can we verify?)
+
 With SSH keys added, you can access the environments to complete CLI commands without requiring tickets.
 
 ### Enter a ticket to deploy
